@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 20px;
+    padding: 20px 50px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    background-color: blueviolet;
+    padding: 20px;
+    height: 94vh;
+    width: 50%;
+    margin: 20px auto;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.image  {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    margin: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+    float:left;
+}
+.innerright {
+    background-color: coral;
+}
+.right  {
+    background-color: rgb(153, 50, 148);
+}
+@media screen and (max-width: 1200px) {
+    .image {
+        width: 40%;
+    }
+}
+
+.image:hover {
+    transform: scale(1.5);
+    box-shadow: 2px 2px 2px rgb(20, 19, 19);
+}
